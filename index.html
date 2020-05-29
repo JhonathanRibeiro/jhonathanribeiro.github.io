@@ -14,25 +14,104 @@
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!-- Libraries CSS Files -->
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+  <style>
+    .newsletter-section {
+      background-color: white;
+      color: #333;
+      border-radius: 5px;
+      width: 100%;
+      padding: 20px;
+    }
+    .fa-linkedin:before {
+      color: darkblue!important;
+    }
+    .fa-facebook-f:before, .fa-facebook:before {
+      color: blue;
+    }
+    .fa-instagram:before {
+      color: deeppink;
+    }
+    .fa-github-alt:before {
+      color: #333;
+    }
+  </style>
   <div id="h">
+   
     <div class="container">
       <div class="row">
         <div class="col-md-8 col-md-12 col-sm-12 col-md-offset-2 content">
           <h1 class="text-center">Blog  Jhonathan Ribeiro</h1>
-          <h5 style="line-height: 4px;"><b>Em construção</b></h5>
+          <h5 style="line-height: 17px;"><b>Em construção</b></h5>
           <h2><b>Este site será lançado em:</b></h2>
           <div class="countdown-header">
             <div class="countdown" data-date="2020/06/27"></div>
           </div>
         </div>
-      </div>
-      <!--/row-->
-    </div>
-    <!--/container-->
+      </div><!--/row-->
+    </div><!--/container-->
+  </div>
+  <div class="container newsletter-section">
+    <section class="cta-section theme-bg-light py-5">
+      <div class="container text-center">
+          <h2 class="heading">Avise-me quando estiver tudo pronto</h2>
+            <div class="container">
+              <div class="intro">
+                Promoções exclusivas de inauguração, ganhe descontos de até 50% e brindes.🤩🏆🎁
+                (Somente os 100 primeiros inscritos irão concorrer, vai perder essa? 😎)<br>
+                 Clique no botão abaixo e informe seu melhor e-mail. 😊
+               </div>
+            </div><br>
+          <form class="signup-form form-inline justify-content-center pt-3" id="Form_login"
+          method="POST" action="https://github.us18.list-manage.com/subscribe/post?u=267ca37c6e5348cd9abb7f3c0&amp;id=1aa891af16"">
+              <button type="submit" class="btn btn-primary btn-news">Inscrever-se</button>
+          </form>
+      </div><!--//container-->
+  </section>
+  </div>
+  <div class="container bg-dark text-center">
+   <p>Desenvolvido por Jhonathan Ribeiro&copy;2020 - Todos os direitos reservados.</p>
+   <p>
+    <ul class="social-list list-inline py-3 mx-auto text-center">
+      <li class="list-inline-item">
+          <a href="{{ site.twitter }}" target="_blank">
+              <i class="fa fa-twitter fa-fw"></i>
+          </a>
+      </li>
+      <li class="list-inline-item">
+          <a href="{{ site.linkedin }}"
+              target="_blank">
+              <i class="fa fa-linkedin fa-fw"></i>
+          </a>
+      </li>
+      <li class="list-inline-item">
+          <a href="{{ site.facebook }}"
+              target="_blank">
+              <i class="fa fa-facebook fa-fw"></i>
+          </a>
+      </li>
+      <li class="list-inline-item">
+          <a href="{{ site.instagram }}" target="_blank"><i
+                  class="fa fa-instagram fa-fw"></i>
+          </a>
+      </li>
+      <li class="list-inline-item">
+          <a href="{{ site.github }}" target="_blank"><i
+                  class="fa fa-github-alt fa-fw">
+              </i>
+          </a>
+      </li>
+      <li class="list-inline-item">
+        <a href="https://www.tumblr.com/dashboard/blog/jhonathanribeiro" target="_blank"><i
+                class="fa fa-tumblr fa-fw">
+            </i>
+        </a>
+    </li>
+  </ul>
+   </p>
   </div>
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>

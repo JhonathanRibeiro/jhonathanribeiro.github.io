@@ -201,7 +201,7 @@ input {
   background: url(../img/header2.png) no-repeat center top;
   background-size: cover;
   margin-top: -59px!important;
-  padding-top: 150px;
+  padding-top: 156px;
   text-align: center;
   background-attachment: relative;
   background-position: center center;
@@ -240,7 +240,7 @@ input {
   padding: 144px 0px;
 }
 
-.countdown-divider img, {
+.countdown-divider img {
   max-width: 300px;
   display: inline-block;
   margin-bottom: 12px;
