@@ -33,7 +33,7 @@
     </div><!--/container-->
     <div class="container text-center">
       <a href="#">
-       <div class="arrow">
+       <div class="arrow" id="scroll-arrow">
          <span></span>
          <span></span>
        </div>
@@ -106,5 +106,22 @@
   <script src="lib/countdown/jquery.countdown.min.js"></script>
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script>
+    // É executado apenas uma vez
+    var $brandImage = $("#scroll-arrow");
+    $(window).scroll(function() {
+        // Usa a refêrencia salva anteriormente
+        $brandImage.fadeOut();
+    });
+  </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151948537-2">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-151948537-2');
+  </script>
 </body>
 </html>
